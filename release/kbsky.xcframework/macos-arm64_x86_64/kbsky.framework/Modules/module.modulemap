@@ -1,0 +1,5 @@
+framework module "kbsky" {
+    umbrella header "kbsky.h"
+    export *
+    module * { export * }
+}
